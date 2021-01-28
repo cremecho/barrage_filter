@@ -1,4 +1,4 @@
-# barrage_flitter
+# barrage_filter
 超简陋ass文件弹幕过滤器，没有打包，用的bat运行jar
 
 自用，只有三个功能：保留顶部从顶部百分之多少的弹幕，改变字体大小，和过滤屏蔽词
