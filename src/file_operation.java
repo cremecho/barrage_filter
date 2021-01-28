@@ -11,6 +11,7 @@ public class file_operation {
         try {
             FileInputStream file = new FileInputStream(file_name);
             BufferedReader buff = new BufferedReader(new InputStreamReader(file, StandardCharsets.UTF_8));
+
             //read
             String temp;
             temp = buff.readLine();
