@@ -12,7 +12,10 @@ public class file_operation {
             FileInputStream file = new FileInputStream(file_name);
             BufferedReader buff = new BufferedReader(new InputStreamReader(file, StandardCharsets.UTF_8));
             //read
-            String temp = null;
+            String temp;
+            temp = buff.readLine();
+            temp = temp.substring(1);
+            barrage_list.add(temp);
             while((temp = buff.readLine()) != null)
             {
                 barrage_list.add(temp);
