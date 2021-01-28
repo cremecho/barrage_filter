@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="danmu_alpha:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/danmu_alpha_jar</output-path>
+    <root id="archive" name="danmu_alpha.jar">
+      <element id="module-output" name="danmu_alpha" />
+    </root>
+  </artifact>
+</component>
